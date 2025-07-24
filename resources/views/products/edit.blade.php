@@ -6,7 +6,7 @@
     <body>
 
     <div class="form-container">
-         <h2>Edit  Product</h2>
+         <!-- <h2>Edit  Product</h2> -->
         <form action="{{ route('products.update', $product) }}" method="POST">
            @csrf @method('PUT')
                 <label for="name">Product Name</label>
